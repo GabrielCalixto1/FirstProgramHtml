@@ -1,0 +1,111 @@
+/* Navbar and body */
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0px 0px 0px 0px;
+    color: white
+}
+.bodyInformation{
+    margin: 70px 100px 130px 140px;
+    font-size: 25px;
+}
+
+.brand1 {
+    margin-top: 12px;
+    width: 130px;
+
+}
+
+.brand2 {
+    margin-top: 0px;
+    width: 200px;
+
+}
+
+.buttonNav {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    margin-top: 200px;
+}
+
+.ulNav {
+    margin-left: 150px;
+        list-style: none;
+}
+
+.liNav {
+    padding: 15px;
+    margin: -15px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+li:hover,
+.activate {
+    background-color: rgba(128, 128, 128, 0.568);
+    transition: 0.5s;
+    border-radius: 200px;
+
+}
+
+.titlebrand {
+    font-size: 20px;
+}
+
+.navtools {
+    padding-top: 10px
+}
+
+.navtoolsbutton {
+    margin: 10px 0px 0px 0px;
+    padding: 1px 0px 1px 0px;
+    background-color: rgba(51, 51, 51, 0.658);
+}
+
+/*Index*/
+
+.welcomePhrase {
+    font-size: 90px;
+
+}
+
+.welcomeDiv {
+    margin: 80px 80px 230px 100px;
+}
+
+.firstPhraseDiv {
+  margin: 140px 0px 100px 1000px;
+    padding-right: 100px;
+    
+    font-size: 25px;
+}
+
+.nome {
+    font-size: 35px;
+}
+
+.gabriel {
+    margin: 0px 150px 0px 180px;
+    height: 550px;
+    width: 400px;
+    float: left;
+    border-radius: 70%;
+    border-top-left-radius: 90%;
+    border-top-left-radius: 140%;
+    border-bottom-right-radius: 140%;
+}
+.heraclito{
+    margin-left: 500px;
+}
+/*aboutMe*/
+
+
+/*Universe*/
+
+.imgPag {
+           
+    margin: 70px 5px 10px 0px;
+    border-radius: 5%;
+}
