@@ -66,6 +66,11 @@
             vertical-align: middle;
             margin-left: 1vw;
         }
+        .navOptions:hover {
+           transition-duration: 0.5s;
+           padding: 0.5%;
+           background-color: rgb(138, 138, 138);
+        }
 
         .contentInformation {
             height: 89.8vh; 
@@ -75,11 +80,9 @@
         }
 
         .benefits {
-            margin-top: 6vh;
+          
             height: 15vh;
-            width: 80vw;
-            background-color: rgb(250, 250, 250);
-            display: inline-block;
+            background-color: rgb(250, 250, 250);  
             border-radius: 0.5vh;
     
             
@@ -117,7 +120,30 @@
         h1{
             margin-left: 1vw;
         }
-
+        .marketItens{
+           
+        }
+        .marketItem{
+            background-color: white;
+            height: 250px;
+            width: 15vw;
+            float: left;
+            overflow: hidden;
+            margin-left: 2.5vw;
+            margin-right: 2.5vw;
+            
+        }
+        .marketItem:hover{
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in;
+            height: 330px;           
+        }
+        .contents{
+            margin-top: 6vh;
+            width: 80vw;
+            display: inline-block;
+        }
+        
     </style>
     <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
@@ -131,16 +157,17 @@
             <input id="searchInput" type="text">
         </article>
         <article class="navOptionSection headerPart">
-            <a class="navOptions" href="Category">Categorias</a>
-            <a class="navOptions" href="Offers">Ofertas do dia</a>
-            <a class="navOptions" href="History">Histórico</a>
-            <a class="navOptions" href="Fashion">Moda</a>
-            <a class="navOptions" href="Sell">Vender</a>
-            <a class="navOptions" href="Contact">Contato</a>
+            <a class="navOptions" href="./register.html">Cadastro</a>
+            <a class="navOptions" href="./category.html">Categorias</a>
+            <a class="navOptions" href="./offers.html">Ofertas do dia</a>
+            <a class="navOptions" href="./history.html">Histórico</a>
+            <a class="navOptions" href="./fashion.html">Moda</a>
+            <a class="navOptions" href="./sell.html">Vender</a>
+            <a class="navOptions" href="./contact.html">Contato</a>
         </article>
     </section>
     <section class="contentInformation">
-        <section class="benefits">
+        <section class="benefits contents">
             <section class="firstOffer offer">
                 <h2 class="offerTitle"> Pagamento Rápido e seguro</h2>
                 <h1 class="offerSub">com Mercado Pago</h1>
@@ -164,6 +191,41 @@
             <section class="offer">
                 <a  href="more"><img class="offerMiniature" src="./MiniPlus.bmp" alt="mini sinal de mais"></a>
             </section>
+        </section>
+
+        <section class="marketItens contents">
+            <div class="marketItem">
+                <img src="https://http2.mlstatic.com/D_Q_NP_878984-MLA48990974075_022022-AB.webp" width="224" height="224" alt="">
+                <h3 class="subTitle">de: R$2,999,99</h3>
+                <h3 class="subTitle">por: R$1.499.90</h3>
+                <h3 class="subTitle">Samsung Galaxy AO3</h3>
+                <h3 class="subTitle">64 GB de armanezamento</h3>
+                
+            </div>
+            <div class="marketItem">
+                <img src="https://http2.mlstatic.com/D_Q_NP_878984-MLA48990974075_022022-AB.webp" width="224" height="224" alt="">
+                <h3 class="subTitle">de: R$2,999,99</h3>
+                <h3 class="subTitle">por: R$1.499.90</h3>
+                <h3 class="subTitle">Samsung Galaxy AO3</h3>
+                <h3 class="subTitle">64 GB de armanezamento</h3>
+                
+            </div>
+            <div class="marketItem">
+                <img src="https://http2.mlstatic.com/D_Q_NP_878984-MLA48990974075_022022-AB.webp" width="224" height="224" alt="">
+                <h3 class="subTitle">de: R$2,999,99</h3>
+                <h3 class="subTitle">por: R$1.499.90</h3>
+                <h3 class="subTitle">Samsung Galaxy AO3</h3>
+                <h3 class="subTitle">64 GB de armanezamento</h3>
+            
+            </div>
+            <div class="marketItem">
+                <img src="https://http2.mlstatic.com/D_Q_NP_878984-MLA48990974075_022022-AB.webp" width="224" height="224" alt="">
+                <h3 class="subTitle">de: R$2,999,99</h3>
+                <h3 class="subTitle">por: R$1.499.90</h3>
+                <h3 class="subTitle">Samsung Galaxy AO3</h3>
+                <h3 class="subTitle">64 GB de armanezamento</h3>
+                
+            </div>
         </section>
     </section>
 
