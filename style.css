@@ -1,152 +1,245 @@
-/* Navbar and body */
-
-body {
-    margin-top: -10px;
-    background-color: rgb(8, 8, 8);
-    color: white
+html {
+    box-sizing: border-box;
 }
 
-.bodyInformation {
-    margin: 70px 100px 130px 140px;
-    font-size: 25px;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
-.brand1 {
-    width: 130px;
-    background-color: black;
-    margin-left: -20px;
-    margin-right: -10px;
-    margin-bottom: -20px;
-    padding: 10px 0px 10px 0px;
-
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
 }
 
-.brand2 {
-    margin-bottom: -20px;
-    width: 200px;
-    padding: 0px 1583px 10px 0px;
-    background-color: black;
-
-}
-
-.buttonNav {
-    color: white;
-    text-decoration: none;
-    padding: 15px 30px 15px 30px;
-    margin-top: 200px;
-}
-
-.ulNav {
-    margin-left: 140px;
+ol,
+ul {
     list-style: none;
 }
 
-.liNav {
-    padding: 15px;
-    margin: -15px;
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-li:hover,
-.activate {
-    background-color: rgba(128, 128, 128, 0.568);
-    transition: 0.5s;
-    border-radius: 200px;
-
-}
-
-.titlebrand {
-    font-size: 20px;
-}
-
-.navtools {
-    padding-top: 10px
-}
-
-.navtoolsbutton {
-    margin: 10px -10px 0px -10px;
-    padding: 1px 0px 1px 0px;
+.navUniversal {
+    height: 8vh;
     background-color: black;
+    text-align: left;
+    
 }
-
-/*Index*/
-
-.welcomePhrase {
-    font-size: 90px;
-
+.navPersonal {
+    text-align: center;
+    height: 8vh;
+    background-color: rgb(122, 33, 122);
+    
+    
 }
-
-.welcomeDiv {
-    margin: 80px 80px 230px 100px;
+.navTitle{
+    font-size: 2.5vh;
+    color: white;
+    display: inline-block;
+    margin-top: 2vh;
+    
 }
-
-.firstPhraseDiv {
-    margin: 140px 0px 100px 1000px;
-    padding-right: 100px;
-
-    font-size: 25px;
-}
-
-.nome {
-    font-size: 35px;
-}
-
-.gabriel {
-    margin: 0px 150px 0px 180px;
-    height: 550px;
-    width: 400px;
-    float: left;
-    border-radius: 70%;
-    border-top-left-radius: 90%;
-    border-top-left-radius: 140%;
-    border-bottom-right-radius: 140%;
-}
-
-.heraclito {
-    margin-left: 500px;
-}
-
-/*aboutMe*/
-
-.imgAbout {
-    margin-top: 60px;
-    margin-right: 450px;
-    height: 500px;
-    width: 350px;
-    border-radius: 70%;
+.navTitleName{
+    color: white;
     float: right;
+    margin-left: -40vw;
+    margin-right: 40vw;
+    margin-top: 2vh;
+    
 }
 
-/*Universe*/
-
-.imgPag {
-
-    margin: 70px 5px 10px 0px;
-    border-radius: 5%;
+.contents {
+    text-align: center;
+    height: 80vh;
+    background-color: aqua;
 }
 
-/*Projects*/
-
-.openning{
-    color: black;
-    max-width: 80%;
-    margin: 0 auto;
+.pokemon {
+    height: 35vh;
+    border: solid rgb(0, 195, 255) 1.5vh;
     background-color: white;
+}
+
+.pokemonDiv{
+    text-align: center;
+    height: 35vh;
+    width: 30vw;
+    display: inline-block;
+    overflow: hidden;
+}
+.pokemonDiv:hover{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    width: 60vw;
+}
+
+
+.pokemonInformationDiv {
+    margin-left: -1vh;
+    vertical-align: top;
+    display: inline-block;
+    height: 35vh;
+    width: 60vh;
+    font-size: 1.8vh;
+    background-color: rgb(0, 195, 255);
+    display: inline-block;
+}
+.statDetailsTitle{
+    margin-top: 0.2vh;
+    color: white;
+    text-align: left;
+
+}
+.statDetailsSub{
+    text-align: left;
+    
+}
+
+
+
+.pokemonInformation {
+    margin-top: 2vh;
+}
+
+
+
+.statSection {
+    text-align: center;
+    height: 44vh;
+    width: 60vw;
+    background-color: green;
+    display: inline-block;
+
+}
+
+.statHabilityDiv {
+    height: 4vh;
+    width: 58vw;
+    background-color: purple;
+    text-align: left;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    border: solid black 0.3vh;
+
+}
+
+.statTitle {
+    margin-bottom: 3vh;
+    font-size: 5vh;
+}
+
+.statBarSection {
+    display: inline-block;
+}
+
+.statBar {
+    height: 3.2vh;
+    width: 20vw;
+    border: solid black 0.3vh;
+    display: inline-block;
+
+}
+
+.statBarTitle {
+    display: inline-block;
+    font-size: 2vh;
     text-align: center;
 }
 
-.content{
-    margin: 30px auto;
-    background-color: purple;
-    max-width: 90vw;
+.statBarTitleDiv {
+    height: 3vh;
+    width: 15vh;
+    display: inline-block;
+    
+
 }
 
-.card{
+.statValue {
+    margin-left: 1vh;
+}
+
+.hpBar {
+    background-color: rgb(255, 158, 158);
+
+}
+
+.hpValueBar {
+    background-color: red;
+    border-color: rgb(255, 158, 158);
     width: 20vw;
-    height: 100px;
-    margin: 1vw 1.25vw;
-    background-color: white;
-    float: left;
+    border-right: solid black 0.3vh;
+}
+
+.attackBar {
+    background-color: rgb(255, 189, 128);
+
+}
+
+.attackValueBar {
+    background-color: rgb(255, 123, 0);
+    border-color: rgb(255, 189, 128);
+    width: 30vw;
+    border-right: solid black 0.3vh;
+}
+
+.defenseBar {
+    background-color: rgb(255, 248, 157);
+
+}
+
+.defenseValueBar {
+    background-color: rgb(255, 238, 0);
+    border-color: rgb(255, 248, 157);
+    width: 23vw;
+    border-right: solid black 0.3vh;
+}
+
+.spAttackBar {
+    background-color: rgb(152, 153, 255);
+
+}
+
+.spAttackValueBar {
+    background-color: rgb(0, 4, 255);
+    border-color: rgb(152, 153, 255);
+    width: 30vw;
+    border-right: solid black 0.3vh;
+}
+
+.spDefenseBar {
+    background-color: rgb(188, 255, 211);
+
+}
+
+.spDefenseValueBar {
+    background-color: rgb(0, 255, 85);
+    border-color: rgb(188, 255, 211);
+    border-right: solid black 0.3vh;
+}
+
+.speedBar {
+    background-color: rgb(255, 158, 223);
+
+}
+
+.speedValueBar {
+    background-color: rgb(255, 0, 170);
+    border-color: rgb(255, 158, 223);
+    width: 26vw;
+    border-right: solid black 0.3vh;
+
 }
